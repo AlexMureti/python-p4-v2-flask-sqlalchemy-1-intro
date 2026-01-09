@@ -19,6 +19,7 @@ migrate = Migrate(app, db)
 
 # initialize the Flask application to use the database
 db.init_app(app)
+migrate = Migrate(app, db)
 
 
 if __name__ == '__main__':
